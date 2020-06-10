@@ -40,8 +40,13 @@ Airplane.prototype.land = function () {
 */
 
 function Person(name, age) {
-  const stomach = [];
+  this.name = name;
+  this.age = age;
+  this.stomach = [];
+}
 
+Person.prototype.eat(someFood) = function () {
+  if 
 }
 
 /*
